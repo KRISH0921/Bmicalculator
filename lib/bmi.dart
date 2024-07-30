@@ -197,7 +197,7 @@ class _BmiState extends State<Bmi> {
                         /// Female
                         Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.only(left:10,top: 50,right: 20),
+                            padding: EdgeInsets.only(left:10,top: 50,right: 20),
                             child: GestureDetector(
                               onTap: () {
                                 setState(() {
